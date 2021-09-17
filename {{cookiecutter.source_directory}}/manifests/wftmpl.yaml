@@ -1,5 +1,4 @@
-{% raw %}
-apiVersion: argoproj.io/v1alpha1
+{% raw %}apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 metadata:
   name: <CHANGE_ME>
@@ -97,6 +96,4 @@ spec:
             memory: 1Gi
           limits:
             cpu: '2'
-            memory: 4Gi
-
-{% endraw %}
+            memory: 4Gi{% endraw %}
